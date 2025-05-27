@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/*heading*/
+
+.fira-sans-bold {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  .fira-sans-semibold {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  body{
+    margin: 40px;
+    background-color: whitesmoke;
+  }
+  .heading {
+    display:flex;
+    justify-content: space-between;
+    align-items: first baseline;
+    margin:40px;
+    background-color: whitesmoke
+
+  }
+  .bt{
+    color: #006A50;
+    background-color:white;
+    font-size: 16px;
+    border-radius: 30px;
+    border-color: #006A50;
+    border-width: 2px;
+    border-bottom: #006A50;
+    padding:8px 4px
+  }
+
+  /*nev 1 section*/
+  .Pillars{
+    margin:40px;
+    background-color:whitesmoke;
+  }
+
+  .banner-content{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d4f0e1;
+    align-items: center;
+    height: 500px;
+    margin:40px;
+  }
+  .header-bt{
+    color: white;
+    background-color: #006A50;
+    border-radius:8px;
+    border:none;
+    padding:15px 17px;
+    cursor:pointer;
+    font-size: 16px;
+  }
+  .header-text{
+    font-size: 40px;
+      margin: 0 0 20px;
+      color: #000;
+      margin-bottom: 24px;
+  }
+  .header-text1{
+    font-size:medium;
+    color:gray;
+    margin-bottom: 16px;
+  }
+  /*main First part*/
+  .full-body{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    max-width: 1200px;
+    background-color:whitesmoke;
+    margin-bottom: 80px;
+
+  }
+  .card{
+    gap:25px;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: 10px;
+    min-height: 200px;
+    box-shadow: 0px 2px 2px;
+    text-align: left;
+
+  }
+  .card img{
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  .card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .card p{
+
+    font-size: 15px;
+    color:#0E0E0E:
+  }
+  /*The vision of Future*/
+  .open-sans  {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.vision-of-future{
+  margin:40px;
+  background-color: whitesmoke;
+}
+
+  .vision-heading{
+    font size:28px;
+    margin-bottom:15px:
+  }
+  .vision-p{
+    max-width: 1100px;
+    margin-bottom: 30px;
+    color:#0E0E0E;
+  }
+.Vison-card{
+    width: 1280px;
+    height: 325px;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row;
+    gap: 20px;
+}
+.Digital-Transformation{
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color:#8ab7ebee ;
+    padding:40px;
+    box-shadow: 10px;
+    text-align: left;
+  }
+  .Digital-Transformation img{
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  .
+.Digital-Transformation h3{
+  font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.Digital-Transformation p{
+  font-size: 15px;
+  color:#0E0E0E;
+  margin-bottom: 15px;
+  }
+  .Btn1{
+    width: 160px;
+    height: 60px;
+    background-color: #5490F5;
+    color:white;
+    padding:20px;
+    text-align: center;
+    border-radius: none;
+    border:none;
+    margin-bottom: 30px;
+
+  }
+.Green-Energy{
+  flex-wrap: wrap;
+    border-radius: 10px;
+    background-color:#C6E4D6;
+    padding:40px;
+    box-shadow: 10px;
+    text-align: left;
+}
+.Green-Energy img{
+  width: 50px;
+    margin-bottom: 10px;
+
+}
+.Green-Energy h3{
+  font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.Green-Energy p{
+  font-size: 15px;
+  color:#0E0E0E;
+  margin-bottom: 15px;
+  }
+
+
+.Btn2{
+   width: 160px;
+    height: 60px;
+    background-color:#09A15C;
+    color:white;
+    padding:20px;
+    text-align: center;
+    border-radius: none;
+    border:none;
+    margin-bottom: 30px;
+
+}
+.Modern-Infrastructure{
+  flex-wrap: wrap;
+    border-radius: 10px;
+    background-color:#F7EBCF ;
+    padding:40px;
+    box-shadow: 10px;
+    text-align: left;
+}
+.Modern-Infrastructure img{
+  width: 50px;
+    margin-bottom: 10px;
+}
+.Modern-Infrastructure h3{
+   font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.Modern-Infrastructure p{
+  font-size: 15px;
+  color:#0E0E0E;
+  margin-bottom: 15px;
+}
+.Btn3{
+  width: 160px;
+    height: 60px;
+    background-color: #FFC239;
+    color:white;
+    padding:20px;
+    text-align: center;
+    border-radius: none;
+    border:none;
+    margin-bottom: 30px;
+}
+.youns-card{
+  width: 1256PX;
+  height: 256;
+  background-color: white;
+  padding:50px
+
+}
+.youns-card p{
+  background-repeat:no-repeat;
+  background-position:left top;
+  
+  color: #0E0E0E;
+  border-radius: 20px;
+}
+
+.chief{
+  color: #0e0e0e80;
+}
+table{
+  border-collapse: collapse;
+  background-color:white;
+  padding:20px;
+  width: 1200px;
+  height: 120px;
+  border:none;
+  border-radius: 10px;
+  margin-inline-start: 10px;
+  margin: 5px;
+}
+thead{
+  border: 1px solid rgba(0, 0, 0, 0.192);
+  background-color: #c6e4d6e5;
+  text-align: left;
+}
+td{
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  text-align: left;
+}
+.Opinion{
+  text-align: center;
+  cursor:pointer;
+}
+select{
+  background-color: #C6E4D6;
+}
+.news{
+  margin-bottom: 20px;
+  gap:20px;
+}
+.news-card1{
+  background-color: white;
+  display: flex;
+  border-radius: 20px;
+  max-width: 1000px;
+  flex-direction: ;
+  justify-content: flex-start;
+  gap:20px;
+  padding: 48px;
+  border-radius: 24px;
+  margin-bottom: 20px;
+}
+.news-text{
+  display:flex;
+  flex-direction: column;
+}
+.pic1{
+  position: static;
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  border: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.pic2{
+  position:left;
+  width:130px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+
+}
+span{
+  gap :5px;
+
+}
+.button1{
+  background-color: #006A50;
+  border: none;
+  border-radius: 0%;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  color: white;
+
+}
+.news-card2{
+  background-color: white;
+  display: flex;
+  border-radius: 20px;
+  max-width: 1000px;
+  flex-direction: ;
+  justify-content: flex-start;
+  gap:20px;
+  padding: 48px;
+  border-radius: 24px;
+  margin-bottom: 20px;
+}
+.Donate{
+   position: static;
+    width: 1280px;
+    height: 464px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+    margin: 80px 0px;
+    margin-top: 200px;
+}
+.button-section-input{
+    width: 1032px;
+    height: 64px;
+    align-items: center;
+    padding: 20px 40px 20px 40px;
+    margin: 32px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgba(172, 171, 171, 0.15);
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.3);
+    font-family: open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+.Donate-Bangladesh  {
+ text-align: center;
+}
+.button-section{
+    width: 240px;
+    height: 128px;
+    padding: 40px;
+    margin: 0px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(172, 171, 171, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.8);
+    font-family: open Sans;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.Done-btn{
+  width: 139px;
+  height: 48px;
+  padding: 13px 26px 13px 26px;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: none;
+}
+.subscribe{
+  position: static;
+  width: 1280px;
+  height: 395px;
+  justify-content: center;
+  align-items: center; 
+  padding: 80px 100px 80px 100px;
+  margin-top: 250px;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+}
+.subscribe-div{
+    width: 750px;
+    height: 235px;
+    margin-left: 280px;
+    margin-top: 60px;
+}
+.subscribe-title{
+  width: 622px;
+  height: 48px;
+  align-items: center;
+  text-align: center;
+  margin: 16px ;
+  font-family: open Sans;
+  font-size: 40px;
+  color: rgb(14, 14, 14);
+}
+.subscribe-para{
+  width: 622px;
+  height: 48px;
+  text-align: center;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: open Sans;
+  font-size: 16px;
+}
+.input-btn{
+    position: absolute;
+    margin-top: 50px;
+}
+.subscribe-input{
+  width: 600px;
+  height: 55px;
+  font-size: 16px;
+  position: relative;
+  text-align: left;
+  border-radius: 10px;
+  border: none;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: open Sans;
+  background: rgb(255, 255, 255);
+}
+.subscribe-btn{
+  width: 150px;
+  height: 56px;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  font-family: open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  border-radius: 10px;
+  background: rgb(0, 106, 80);
+  border: none;
+}
+.last-pera{
+    width: 622px;
+    height: 19px;
+    margin-top: 180px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
